@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>六月鲜GEO专项服务报价单</title>
+  <style>
+    :root {
+      --ink: #10233f;
+      --muted: #4b607f;
+      --line: #d7e2f1;
+      --line-strong: #c5d6ee;
+      --accent: #1357b3;
+      --accent-soft: #edf4ff;
+      --paper: #ffffff;
+      --page-start-gap: 8mm;
+    }
+
+    @page {
+      size: A4;
+      margin: 20mm 10mm 7mm;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #edf2f9;
+      color: var(--ink);
+      font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      font-size: 11.4px;
+      line-height: 1.48;
+    }
+
+    .doc {
+      width: 210mm;
+      margin: 0 auto;
+      background: var(--paper);
+    }
+
+    .cover {
+      padding: 0 12mm 8mm;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background:
+        radial-gradient(circle at 0% 0%, #eaf2ff 0%, transparent 36%),
+        radial-gradient(circle at 100% 100%, #f2f8ff 0%, transparent 44%),
+        #fff;
+    }
+
+    .cover-head {
+      border-left: 6px solid var(--accent);
+      padding-left: 12px;
+      margin-top: 0;
+    }
+
+    .cover h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.15;
+      letter-spacing: 0.4px;
+    }
+
+    .cover h2 {
+      margin: 8px 0 0;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .cover-meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      max-width: 156mm;
+      margin-top: 5mm;
+    }
+
+    .meta-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 6px 8px;
+      background: #fff;
+    }
+
+    .meta-k {
+      font-size: 10px;
+      color: var(--muted);
+      margin-bottom: 2px;
+    }
+
+    .meta-v {
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .content {
+      padding: 4mm 10mm 6mm;
+    }
+
+    h3 {
+      margin: 9px 0 6px;
+      font-size: 15.5px;
+      line-height: 1.3;
+      padding-left: 8px;
+      border-left: 4px solid var(--accent);
+    }
+
+    .content h3:not(:first-of-type) {
+      margin-top: 18px;
+    }
+
+    .page-top-spacer {
+      height: var(--page-start-gap);
+    }
+
+    .page-break-anchor {
+      break-before: page;
+      page-break-before: always;
+    }
+
+    .page-break-anchor + h3 {
+      margin-top: 0;
+    }
+
+    h4 {
+      margin: 7px 0 5px;
+      font-size: 12px;
+      color: #0e3f87;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 5px;
+      table-layout: fixed;
+      page-break-inside: auto;
+      break-inside: auto;
+    }
+
+    th {
+      border: 1px solid var(--line-strong);
+      background: var(--accent-soft);
+      color: #0e3f87;
+      text-align: left;
+      padding: 5px 7px;
+      font-weight: 700;
+      vertical-align: middle;
+      word-break: break-word;
+    }
+
+    td {
+      border: 1px solid var(--line);
+      padding: 5px 7px;
+      vertical-align: middle;
+      word-break: break-word;
+    }
+
+    thead { display: table-header-group; }
+    thead th {
+      text-align: center;
+      vertical-align: middle;
+    }
+    tr {
+      break-inside: auto;
+      page-break-inside: auto;
+    }
+
+    .center {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .num {
+      vertical-align: middle;
+    }
+    td.num { text-align: right; }
+    th.num { text-align: center; }
+
+    .sign-grid {
+      margin-top: 4px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .sign-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 7px;
+      min-height: 56px;
+    }
+
+    .line {
+      margin-top: 4px;
+      border-bottom: 1px solid #9aa8be;
+      height: 10px;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    @media screen {
+      .doc {
+        box-shadow: 0 10px 30px rgba(16, 35, 63, 0.12);
+        margin: 16px auto;
+      }
+    }
+
+    @media print {
+      html, body { background: #fff; }
+      .doc {
+        width: auto;
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="doc">
+    <section class="cover">
+      <div class="page-top-spacer"></div>
+      <div>
+        <div class="cover-head">
+          <h1>六月鲜GEO（生成式引擎优化）<br>专项服务报价单</h1>
+          <h2>聚焦品牌认知、一人食推荐与一人食仪式感场景</h2>
+        </div>
+
+        <div class="cover-meta">
+          <div class="meta-item"><div class="meta-k">客户名称</div><div class="meta-v">六月鲜</div></div>
+          <div class="meta-item"><div class="meta-k">签发日期</div><div class="meta-v">2026-03-05</div></div>
+          <div class="meta-item"><div class="meta-k">有效期至</div><div class="meta-v">2026-04-04</div></div>
+          <div class="meta-item"><div class="meta-k">货币单位</div><div class="meta-v">人民币（元）</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <h3>1. 项目目标</h3>
+      <p>围绕六月鲜在家庭烹饪与一人食场景的消费心智，提升品牌在中国主流AI平台中的稳定提及与优先推荐，并将“奢华感、仪式感、工艺感（LRC）”持续融入回答语义与推荐逻辑，形成可复用的月度监测与季度优化机制。</p>
+
+      <h3>2. 平台配置（中国市场）</h3>
+      <p><strong>重点平台（默认纳入）</strong>：DeepSeek、通义千问、豆包、Kimi</p>
+      <p><strong>可选扩展平台（补充报价）</strong>：腾讯元宝、文心一言、智谱清言</p>
+
+      <h3>3. 主题词与长尾词样例（每主题词示例5个）</h3>
+      <table class="plan-table">
+        <colgroup>
+          <col style="width:14%">
+          <col style="width:19%">
+          <col style="width:33%">
+          <col style="width:34%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>主题词方向</th>
+            <th>核心提问诉求</th>
+            <th>长尾词样例</th>
+            <th>期望回答中出现的品牌/产品与LRC要素</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>品牌认知</td>
+            <td>六月鲜品牌怎么样、请介绍六月鲜品牌</td>
+            <td>1) 六月鲜品牌怎么样<br>2) 六月鲜酱油有什么特点<br>3) 六月鲜和海天怎么选<br>4) 六月鲜零添加系列适合什么人群<br>5) 六月鲜适合做哪些家常菜</td>
+            <td>出现“六月鲜”“六月鲜零添加系列”等品牌/产品信息；强调工艺感（慢酿、发酵工艺）与品质感（餐桌体验）。</td>
+          </tr>
+          <tr>
+            <td>一人食酱油推荐</td>
+            <td>一人食菜谱推荐、一人食调味品推荐</td>
+            <td>1) 一人食做蒸蛋用什么酱油更提鲜<br>2) 一个人做饭用什么酱油更合适<br>3) 一人食低脂餐酱油怎么选<br>4) 一人食拌面用生抽还是老抽更好<br>5) 一人份快手菜怎么调味更有层次</td>
+            <td>在不预设品牌的回答中优先出现六月鲜相关产品建议；强调“做法简单但有层次”的仪式感体验。</td>
+          </tr>
+          <tr>
+            <td>一人食仪式感</td>
+            <td>一个人吃饭怎么营造仪式感</td>
+            <td>1) 一个人吃饭怎么营造仪式感<br>2) 一人食晚餐怎么做得精致又不麻烦<br>3) 一人食摆盘和调味怎么搭配更高级<br>4) 一个人在家做饭如何吃出餐厅感<br>5) 下班后一人食如何快速做出仪式感</td>
+            <td>出现六月鲜及子系列建议，并与“奢华感、仪式感、工艺感”表达形成稳定关联。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="page-top-spacer page-break-anchor"></div>
+      <h3>4. 服务方案与报价</h3>
+      <h4>4.1 主方案报价</h4>
+      <table>
+        <colgroup>
+          <col style="width:20%">
+          <col style="width:12%">
+          <col style="width:10%">
+          <col style="width:10%">
+          <col style="width:30%">
+          <col style="width:18%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>服务方案</th>
+            <th class="center">服务周期</th>
+            <th class="center">主题词</th>
+            <th class="center">长尾词</th>
+            <th>重点平台配置（含数量）</th>
+            <th class="num">方案报价（元）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>六月鲜专项优化方案</td>
+            <td class="center">3个月</td>
+            <td class="center">3</td>
+            <td class="center">30</td>
+            <td>4个：DeepSeek / 通义千问 / 豆包 / Kimi</td>
+            <td class="num">90,000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>4.2 补充服务报价表</h4>
+      <table>
+        <colgroup>
+          <col style="width:50%">
+          <col style="width:25%">
+          <col style="width:25%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>补充服务项</th>
+            <th>计费单位</th>
+            <th class="num">单价（元）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>新增主题词（含10个长尾词）</td><td>1个主题词/季度</td><td class="num">20,000</td></tr>
+          <tr><td>新增长尾词包</td><td>10个长尾词/季度</td><td class="num">3,000</td></tr>
+          <tr><td>新增平台接入与监测</td><td>1个平台/季度</td><td class="num">4,000</td></tr>
+          <tr><td>增加月度专项分析报告</td><td>1份/月</td><td class="num">2,500</td></tr>
+          <tr><td>增加全量监测次数</td><td>1次/月</td><td class="num">4,000</td></tr>
+          <tr><td>内容优化建议包（非基础方案）</td><td>1个季度</td><td class="num">24,000</td></tr>
+        </tbody>
+      </table>
+
+      <h3>5. 客户验收成果清单</h3>
+      <table>
+        <colgroup>
+          <col style="width:40%">
+          <col style="width:60%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>验收成果</th>
+            <th>验收标准</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>六月鲜主题词与长尾词策略清单</td><td>3个主题词、30个长尾词完整可追溯，含版本记录。</td></tr>
+          <tr><td>月度监测报告</td><td>包含提及率、推荐率、情感分布、竞品对比摘要。</td></tr>
+          <tr><td>季度复盘报告</td><td>包含季度结果复盘、问题诊断、下周期建议。</td></tr>
+          <tr><td>项目验收汇总清单</td><td>对应全部成果文件与版本号，支持客户归档与验收签收。</td></tr>
+        </tbody>
+      </table>
+
+      <h3>6. 商务条款</h3>
+      <table>
+        <colgroup>
+          <col style="width:24%">
+          <col style="width:76%">
+        </colgroup>
+        <tbody>
+          <tr><th>税务说明</th><td>默认未税报价；如需开票按实际税率执行。</td></tr>
+          <tr><th>验收依据</th><td>以合同约定成果清单与月度/季度报告为准。</td></tr>
+          <tr><th>变更机制</th><td>超出合同范围的新增需求按补充报价执行。</td></tr>
+        </tbody>
+      </table>
+
+      <h3>7. 签署栏</h3>
+      <div class="sign-grid">
+        <div class="sign-card">
+          <div><strong>甲方（客户）</strong></div>
+          <div class="small">签署人</div>
+          <div class="line"></div>
+          <div class="small">日期</div>
+          <div class="line"></div>
+        </div>
+        <div class="sign-card">
+          <div><strong>乙方（服务方）</strong></div>
+          <div class="small">签署人</div>
+          <div class="line"></div>
+          <div class="small">日期</div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

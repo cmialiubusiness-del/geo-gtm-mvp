@@ -1,0 +1,99 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: geo_gtm_mvp
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d geo_gtm_mvp"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  api:
+    build:
+      context: ./backend
+    command: >
+      sh -c "alembic upgrade head &&
+             python -m app.seed &&
+             uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/geo_gtm_mvp
+      REDIS_URL: redis://redis:6379/0
+      SECRET_KEY: local-dev-secret
+      FRONTEND_ORIGIN: http://localhost:3000,http://127.0.0.1:3000
+      REAL_PROVIDER_ENABLED: "false"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/generated_reports:/app/generated_reports
+
+  worker:
+    build:
+      context: ./backend
+    command: celery -A app.core.celery_app.celery_app worker -l info
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/geo_gtm_mvp
+      REDIS_URL: redis://redis:6379/0
+      SECRET_KEY: local-dev-secret
+    depends_on:
+      api:
+        condition: service_started
+      redis:
+        condition: service_healthy
+
+  scheduler:
+    build:
+      context: ./backend
+    command: celery -A app.core.celery_app.celery_app beat -l info
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/geo_gtm_mvp
+      REDIS_URL: redis://redis:6379/0
+      SECRET_KEY: local-dev-secret
+    depends_on:
+      api:
+        condition: service_started
+      redis:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ./frontend
+    command: >
+      sh -c "rm -rf .next &&
+             npm run build &&
+             npm run start"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000/api
+    depends_on:
+      api:
+        condition: service_started
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:
+  redis_data:
