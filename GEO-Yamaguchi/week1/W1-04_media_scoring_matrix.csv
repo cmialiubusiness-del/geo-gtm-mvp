@@ -1,0 +1,25 @@
+Audience: Internal
+Language: zh-CN
+Last Updated: 2026-03-16
+Owner: Shared
+platform_id,平台,区域,相关性得分(25),收录与可发现性得分(20),媒体可信度得分(20),成本效率得分(15),线索潜力得分(10),风险得分(10),总分(100),分层,国内AI引用潜力,海外AI引用潜力,建议月投入（RMB）,执行动作,来源链接
+CN-01,知乎（问答/专栏）,中国,24,17,17,11,10,7,86,A,高,中,1000-4000,"问题词矩阵+专栏双发",https://xg.zhihu.com/;https://tranco-list.eu/top-1m.csv.zip;https://zhihu.com/robots.txt
+CN-02,CSDN（技术内容）,中国,23,17,16,12,9,7,84,A,高,中,1000-5000,"技术长文+下载型资产",https://marketing.csdn.net/;https://tranco-list.eu/top-1m.csv.zip;https://csdn.net/robots.txt
+CN-03,SegmentFault（思否）,中国,22,15,15,13,8,5,78,B,高,中,500-2500,"问答库与FAQ沉淀",https://segmentfault.com/;https://tranco-list.eu/top-1m.csv.zip;https://segmentfault.com/robots.txt
+CN-04,站长之家（Chinaz）,中国,22,16,16,11,8,7,80,A,高,中,2000-8000,"SEO专题稿+数据解读",https://www.chinaz.com/;https://tranco-list.eu/top-1m.csv.zip;https://chinaz.com/robots.txt
+CN-05,鸟哥笔记,中国,20,14,14,13,7,4,72,B,中高,中,1500-6000,"增长案例稿+复盘帖",https://www.niaogebiji.com/;https://tranco-list.eu/top-1m.csv.zip;https://niaogebiji.com/robots.txt
+CN-06,人人都是产品经理,中国,20,14,14,12,7,6,73,B,中高,中,1000-5000,"组织落地与流程稿",https://www.woshipm.com/;https://tranco-list.eu/top-1m.csv.zip;https://woshipm.com/robots.txt
+CN-07,InfoQ中国,中国,19,13,15,10,7,6,70,B,中高,中,3000-10000,"工程实践与架构案例",https://www.infoq.cn/;https://tranco-list.eu/top-1m.csv.zip;https://infoq.cn/robots.txt
+CN-08,掘金（技术社区）,中国,23,16,15,13,8,7,82,A,高,中,1000-4000,"系列技术帖+工具链实操",https://juejin.cn/;https://tranco-list.eu/top-1m.csv.zip;https://juejin.cn/robots.txt
+CN-09,机器之心,中国,18,13,15,8,7,5,66,B,中高,中,4000-12000,"AI行业洞察与方法论",https://www.jiqizhixin.com/;https://tranco-list.eu/top-1m.csv.zip;https://jiqizhixin.com/robots.txt
+CN-10,雷峰网,中国,19,13,14,9,7,6,68,B,中高,中,3000-10000,"产业案例与落地报道",https://www.leiphone.com/;https://tranco-list.eu/top-1m.csv.zip;https://leiphone.com/robots.txt
+US-01,Search Engine Journal,海外,24,16,17,10,9,7,83,A,中,高,3000-12000,"SEO/GEO专题合作稿",https://www.searchenginejournal.com/advertise/;https://tranco-list.eu/top-1m.csv.zip;https://searchenginejournal.com/robots.txt
+US-02,Search Engine Land,海外,23,16,17,10,9,7,82,A,中,高,3000-12000,"AI Search趋势与策略稿",https://searchengineland.com/;https://tranco-list.eu/top-1m.csv.zip;https://searchengineland.com/robots.txt
+US-03,MarTech.org,海外,21,15,16,11,7,6,76,B,中,高,2500-8000,"MarTech工作流与归因",https://martech.org/;https://tranco-list.eu/top-1m.csv.zip;https://martech.org/robots.txt
+US-04,Search Engine Roundtable,海外,22,16,17,11,8,7,81,A,中,高,2000-7000,"算法变更快评+数据跟踪",https://www.seroundtable.com/;https://tranco-list.eu/top-1m.csv.zip;https://www.seroundtable.com/robots.txt
+US-05,Stack Overflow（问答）,海外,24,18,19,9,10,8,88,A,中,高,500-2500（自然）,"问答运营+可复用答案模板",https://stackoverflow.co/advertising/;https://tranco-list.eu/top-1m.csv.zip;https://stackoverflow.com/robots.txt
+US-06,Reddit（子版块）,海外,23,17,17,10,10,8,85,A,中,高,500-3000（自然）,"子版块AMA与案例讨论",https://www.redditinc.com/advertising;https://tranco-list.eu/top-1m.csv.zip;https://reddit.com/robots.txt
+US-07,G2（软件评价）,海外,21,15,18,9,8,9,80,A,中,高,1000-3500,"资料页+评价运营",https://sell.g2.com/;https://tranco-list.eu/top-1m.csv.zip;https://g2.com/robots.txt
+US-08,Capterra（软件目录）,海外,20,15,17,10,8,6,76,B,中,高,1000-3000,"目录页优化+对比词覆盖",https://www.capterra.com/vendors/;https://tranco-list.eu/top-1m.csv.zip;https://capterra.com/robots.txt
+US-09,EIN Presswire,海外,18,14,14,14,7,7,74,B,中,中高,1100-4000,"月度里程碑新闻稿",https://www.einpresswire.com/pricing;https://tranco-list.eu/top-1m.csv.zip;https://einpresswire.com/robots.txt
+US-10,PR Newswire,海外,17,15,19,3,4,4,62,C,中,中高,10000-30000+,"仅在重大节点使用",https://www.prnewswire.com/;https://tranco-list.eu/top-1m.csv.zip;https://prnewswire.com/robots.txt

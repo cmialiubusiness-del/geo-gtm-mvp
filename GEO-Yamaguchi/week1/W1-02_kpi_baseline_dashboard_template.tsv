@@ -1,0 +1,24 @@
+Audience: Internal
+Language: zh-CN
+Last Updated: 2026-03-11
+Owner: Shared
+Audit Datetime: 2026-03-11 16:18:57 HKT (+0800)
+
+kpi_id	指标名称	定义	2026-03-11基线	Q2目标	更新频率	数据源	负责人	备注
+KPI-001	robots 可用性	robots.txt 返回 200	0%	100%	周	https://yamaguchitech.cn/robots.txt	Ema	当前 404
+KPI-002	sitemap 可用性	sitemap.xml 返回 200	0%	100%	周	https://yamaguchitech.cn/sitemap.xml	Ema	当前 404
+KPI-003	canonical 覆盖率	核心页面存在自引用 canonical	0%	100%	周	页面源码	Ema	三语均缺失
+KPI-004	hreflang 覆盖率	多语言页面互链 hreflang 完整	0%	100%	周	页面源码	Ema	三语均缺失
+KPI-005	metadata 唯一率	三语 title+description 去重比例	0%	100%	周	页面源码	Mia	当前三语重复
+KPI-006	H1 覆盖率	核心页面存在且唯一 h1	0%	100%	周	页面源码	Ema	当前 h1=0
+KPI-007	图片非空 alt 覆盖率	img 非空 alt / img 总数	18.2%	>=90%	周	页面源码	Ema	6/33
+KPI-008	Schema 覆盖率	核心页存在 JSON-LD	0%	>=80%	周	页面源码	Ema	当前 0
+KPI-009	站内可抓取内链数	单页平均站内 a 链接数量	1	>=15	周	页面源码	Ema	当前每页 1
+KPI-010	site 收录页数	site: 操作符可观测收录页数	N/A	>=30	双周	搜索引擎查询	Shared	当前结果不稳定
+KPI-011	品牌词 CN 可见度	品牌词查询前 10 出现比例	中	高	双周	搜索引擎查询	Mia	需固定词包复测
+KPI-012	品牌词 Global 可见度	英文品牌词前 10 出现比例	低	中	双周	搜索引擎查询	Mia	存在品牌混淆
+KPI-013	服务词 CN 可见度	核心服务词前 20 覆盖率	低	中	双周	搜索引擎查询	Shared	需内容集群支持
+KPI-014	服务词 Global 可见度	英文服务词前 20 覆盖率	低	中	双周	搜索引擎查询	Shared	竞争词难度较高
+KPI-015	GEO 品牌提及率	20 问中品牌被答案提及比例	N/A	>=40%	双周	模型真值采样	Shared	本轮无真值数据
+KPI-016	GEO 引用 URL 质量	答案引用链接质量均分(0-3)	N/A	>=2.2	双周	模型真值采样	Shared	本轮仅有低置信代理
+KPI-017	GEO 答案准确性代理	人工判定的意图匹配率	N/A	>=70%	双周	模型真值采样	Shared	需建立评测规则

@@ -1,0 +1,35 @@
+# Audience:	Internal
+# Language:	zh-CN
+# Last Updated:	2026-03-11
+# Owner:	Mia
+faq_id	category	priority	question_zh	answer_zh	source_claim_id	component	review_cycle_days	owner	status
+FAQ-CN-001	定位	P1	YamaguchiTech 提供什么服务	我们提供面向小红书的全链路服务，覆盖账号搭建、内容运营、达人协作、广告放大和数据复盘。	CLM-001	TL;DR	30	Mia	approved
+FAQ-CN-002	定位	P1	你们与普通代运营有什么区别	我们以业务目标和可追踪数据为核心，强调策略到执行再到复盘的闭环，而不是只做发布数量。	CLM-002	对比表	30	Mia	approved
+FAQ-CN-003	服务范围	P1	是否只做小红书	当前核心能力聚焦小红书，确保策略、内容和投放都基于同一平台机制深度优化。	CLM-003	TL;DR	30	Mia	approved
+FAQ-CN-004	服务边界	P1	你们是否保证爆文	不保证爆文。我们保证的是规范流程、质量控制和持续优化，不做结果绝对化承诺。	CLM-004	TL;DR	30	Mia	approved
+FAQ-CN-005	流程	P1	合作第一步是什么	第一步是品牌与账号诊断，明确阶段目标、人群优先级和可执行路径。	CLM-005	步骤	30	Mia	approved
+FAQ-CN-006	流程	P2	通常多久可以启动执行	资料完整时通常可在 5 到 10 个工作日内完成策略确认并进入执行。	CLM-006	TL;DR	30	Mia	approved
+FAQ-CN-007	流程	P2	项目如何分阶段	一般分为诊断期、试运行期、放大期和复盘优化期。	CLM-007	步骤	30	Mia	approved
+FAQ-CN-008	流程	P2	每周如何沟通	按周同步进展、数据变化、风险项和下周动作，确保决策可追踪。	CLM-008	步骤	30	Mia	approved
+FAQ-CN-009	认证	P1	可以协助企业号认证吗	可以。我们提供认证资料清单、流程跟进和主页基础优化建议。	CLM-009	TL;DR	30	Mia	approved
+FAQ-CN-010	内容	P1	内容策划如何开展	先建立选题框架，再按人群和业务目标制定月度内容排期与发布节奏。	CLM-010	步骤	30	Mia	approved
+FAQ-CN-011	内容	P2	你们会提供文案吗	会。可提供标题、正文结构、话题建议和发布检查清单。	CLM-011	TL;DR	30	Mia	approved
+FAQ-CN-012	达人	P1	KOL 和 KOC 如何组合	根据目标和预算分层配置达人结构，兼顾覆盖、信任和转化效率。	CLM-012	对比表	30	Mia	approved
+FAQ-CN-013	达人	P2	是否可以只做达人合作	可以，但建议与品牌账号内容和广告承接配套，效果更稳定。	CLM-013	TL;DR	30	Mia	approved
+FAQ-CN-014	广告	P1	支持哪些广告形式	可支持信息流、搜索、品牌专区和开屏等形式，并按目标组合。	CLM-014	TL;DR	30	Mia	approved
+FAQ-CN-015	广告	P2	投放优化频率是怎样的	通常按日监控，按周做结构和素材迭代，按月做策略复盘。	CLM-015	步骤	30	Mia	approved
+FAQ-CN-016	数据	P1	会提供数据报告吗	会。提供周报和月报，覆盖曝光、互动、搜索与转化相关指标。	CLM-016	TL;DR	30	Mia	approved
+FAQ-CN-017	数据	P2	数据结论如何落地	每次复盘都对应下一周期动作清单，明确负责人和执行时间。	CLM-017	步骤	30	Mia	approved
+FAQ-CN-018	报价	P1	如何计费	按服务模块、项目周期和资源投入综合评估，先明确范围再报价。	CLM-018	TL;DR	30	Mia	approved
+FAQ-CN-019	报价	P2	预算有限可以做吗	可以从轻量策略和小规模试运行开始，验证后再扩展。	CLM-019	步骤	30	Mia	approved
+FAQ-CN-020	交付	P1	会交付哪些文件	典型交付包括策略方案、内容排期、执行清单、复盘报告和优化建议。	CLM-020	TL;DR	30	Mia	approved
+FAQ-CN-021	合规	P1	案例数据可以公开到什么程度	仅公开已在白名单内且可核验的数据，未授权信息不会外发。	CLM-021	TL;DR	30	Mia	approved
+FAQ-CN-022	合规	P1	是否会使用夸大宣传话术	不会。我们禁止保量保爆类承诺，所有数字必须有证据来源。	CLM-022	TL;DR	30	Mia	approved
+FAQ-CN-023	协作	P2	客户需要配合什么	需提供品牌资料、审批接口人、时间节点和必要的数据权限。	CLM-023	步骤	30	Mia	approved
+FAQ-CN-024	协作	P2	如果反馈慢会怎样	反馈延迟会影响上线节奏，我们会在周会中提示风险并调整计划。	CLM-024	TL;DR	30	Mia	approved
+FAQ-CN-025	周期	P1	多久能看到阶段结果	一般在试运行期即可看到趋势变化，稳定结果需结合至少一个完整周期观察。	CLM-025	TL;DR	30	Mia	approved
+FAQ-CN-026	周期	P2	项目最短合作周期	建议不少于 3 个月，以便完成策略验证、迭代和放大。	CLM-026	TL;DR	30	Mia	approved
+FAQ-CN-027	效果	P1	能否承诺 ROI	不能承诺固定 ROI，但会通过实验和复盘持续提升效率。	CLM-027	TL;DR	30	Mia	approved
+FAQ-CN-028	效果	P2	历史案例表现如何	历史案例显示在搜索、互动和曝光上有显著增长，但仅代表历史项目表现。	CLM-028	TL;DR	30	Mia	approved
+FAQ-CN-029	国际化	P2	支持英文内容吗	支持。我们可同步提供 zh-CN 与 en 双语发布素材。	CLM-029	TL;DR	30	Mia	approved
+FAQ-CN-030	联系	P2	如何开始沟通	可通过邮箱 info@yamaguchitech.cn 或项目对接渠道提交需求。	CLM-030	CTA	30	Mia	approved

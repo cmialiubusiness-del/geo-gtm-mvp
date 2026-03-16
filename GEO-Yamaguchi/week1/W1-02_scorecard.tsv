@@ -1,0 +1,13 @@
+Audience: Internal
+Language: zh-CN
+Last Updated: 2026-03-11
+Owner: Shared
+Audit Datetime: 2026-03-11 16:18:57 HKT (+0800)
+
+dimension	score_0_100	weight	weighted_score	fact_basis	blocker_count	confidence	next_action
+技术SEO	28	0.20	5.6	robots/sitemap 404; canonical=0; hreflang=0; schema=0	4	高	W1 完成 robots+sitemap+canonical+hreflang
+页面SEO	42	0.20	8.4	三语 metadata 唯一值=1; h1=0; alt 非空率=18.2%	3	高	W2 重写三语 metadata; 补 H1; 批量修复 alt
+收录与抓取	22	0.20	4.4	site 查询无稳定结果; 每页仅1条站内链接	3	中	W1-W3 建立抓取路径与索引提交机制
+GEO可引用准备度	18	0.20	3.6	结构化数据缺失; 多语言标注缺失; GEO 真值采样缺口	4	中	W2 加 schema; W4 完成 GEO 真值测量
+内容权威信号	46	0.20	9.2	有案例与联系方式; 但外部权威引用信号弱	2	中	W3-W4 增补可引用权威内容与案例结构化
+总分(等权)	31.2	1.00	31.2	以上五维等权平均	N/A	中	先修技术阻塞项再做可见度拉升

@@ -1,0 +1,35 @@
+# Audience:	Internal
+# Language:	zh-CN
+# Last Updated:	2026-03-11
+# Owner:	Shared
+claim_id	claim_statement	allowed_audience	evidence_refs	evidence_summary	risk_level	approved_wording_zh	disallowed_wording_zh	owner	status
+CLM-001	我们提供小红书全链路服务	external	week1/kb/01_brand_facts.md;week1/kb/02_service_cards_internal_zh-CN.md	服务范围已在内部服务卡定义	low	覆盖账号、内容、达人、广告和数据复盘	全网全平台全链路都能做	Shared	approved
+CLM-002	我们以目标和数据闭环驱动执行	external	week1/kb/02_service_cards_internal_zh-CN.md;week1/kb/08_editorial_style_guide_internal_zh-CN.md	流程与复盘机制有内部规范	low	以目标拆解和复盘迭代推进增长	凭经验就能稳定爆发	Shared	approved
+CLM-003	当前核心聚焦小红书	external	week1/kb/01_brand_facts.md	品牌定位明确	low	当前核心能力聚焦小红书	全平台同等深度服务	Shared	approved
+CLM-004	不承诺爆文	external	week1/kb/01_brand_facts.md;week1/kb/08_editorial_style_guide_internal_zh-CN.md	边界条款明示	low	不做保量保爆承诺	保证每篇爆文	Shared	approved
+CLM-005	合作第一步是诊断	external	week1/kb/02_service_cards_internal_zh-CN.md	流程卡定义	low	先做品牌与账号诊断再执行	直接投放即可	Shared	approved
+CLM-006	资料齐全可在5到10个工作日启动	external	week1/kb/02_service_cards_internal_zh-CN.md	启动条件与流程节奏来自服务卡	medium	资料完整时通常5到10个工作日启动	三天内必上线	Shared	approved
+CLM-007	项目分阶段推进	external	week1/kb/02_service_cards_internal_zh-CN.md	服务流程标准化	low	诊断、试运行、放大、复盘四阶段	一步到位无需试运行	Shared	approved
+CLM-008	每周固定沟通与复盘	external	week1/kb/02_service_cards_internal_zh-CN.md	协作机制已定义	low	按周同步进展与下一步动作	随时沟通无需节奏	Shared	approved
+CLM-009	可协助企业号认证	external	week1/kb/02_service_cards_internal_zh-CN.md	SC-01定义明确	low	可协助认证资料准备和流程跟进	包过认证	Shared	approved
+CLM-010	内容策划按人群和目标展开	external	week1/kb/02_service_cards_internal_zh-CN.md	SC-03定义明确	low	按人群和目标制定内容排期	只看热点即可	Shared	approved
+CLM-011	可提供文案与发布规范	external	week1/kb/02_service_cards_internal_zh-CN.md;week1/kb/07_content_component_library_internal_zh-CN.md	组件库支持文案生产	low	提供标题正文结构与发布清单	只给方向不落地	Shared	approved
+CLM-012	达人策略采用分层组合	external	week1/kb/02_service_cards_internal_zh-CN.md	SC-04定义明确	low	按预算和目标分层配置达人	只投头部达人即可	Shared	approved
+CLM-013	可单做达人但建议与内容和广告联动	external	week1/kb/02_service_cards_internal_zh-CN.md	服务边界已定义	low	可单做达人但联动更稳	只做达人一定最好	Shared	approved
+CLM-014	支持信息流搜索品牌专区开屏等投放	external	week1/kb/01_brand_facts.md;week1/kb/02_service_cards_internal_zh-CN.md	官网服务与内部服务卡一致	low	按目标组合不同广告形式	只做一种广告就够	Shared	approved
+CLM-015	投放按日监控按周迭代	external	week1/kb/02_service_cards_internal_zh-CN.md	SC-05定义明确	low	按日监控按周优化按月复盘	上线后不需要优化	Shared	approved
+CLM-016	提供周报和月报	external	week1/kb/02_service_cards_internal_zh-CN.md	SC-06定义明确	low	提供周报月报与关键发现	只汇报曝光不看转化	Shared	approved
+CLM-017	复盘结论会转化为动作清单	external	week1/kb/02_service_cards_internal_zh-CN.md;week1/kb/07_content_component_library_internal_zh-CN.md	流程和模板支持	low	每次复盘都对应下一步动作	复盘只看不做	Shared	approved
+CLM-018	报价按范围周期资源评估	external	week1/kb/02_service_cards_internal_zh-CN.md	计费原则已定义	low	先定义范围再报价	先报低价后加项	Shared	approved
+CLM-019	预算有限可先小规模试运行	external	week1/kb/02_service_cards_internal_zh-CN.md	SC-07支持分阶段	low	可先轻量试运行后放大	预算低不适合开始	Shared	approved
+CLM-020	标准交付包含策略执行复盘文档	external	week1/kb/02_service_cards_internal_zh-CN.md;week1/kb/07_content_component_library_internal_zh-CN.md	交付范围明确	low	交付策略排期执行清单与复盘	只有口头建议	Shared	approved
+CLM-021	案例数据仅在授权范围公开	external	week1/kb/01_brand_facts.md;week1/kb/08_editorial_style_guide_internal_zh-CN.md	合规条款明确	low	仅公开可核验且授权数据	所有客户数据都可公开	Shared	approved
+CLM-022	禁止夸大承诺	external	week1/kb/01_brand_facts.md;week1/kb/08_editorial_style_guide_internal_zh-CN.md	编辑规范明示禁用语	low	不做保量保爆类承诺	保证销量翻倍	Shared	approved
+CLM-023	客户需提供资料和审批接口	external	week1/kb/02_service_cards_internal_zh-CN.md	客户输入项已定义	low	需提供资料权限与审批接口	客户无需配合	Shared	approved
+CLM-024	反馈延迟会影响节奏	external	week1/kb/02_service_cards_internal_zh-CN.md	项目管理规则明示	low	反馈延迟会影响上线节奏	延期不会有影响	Shared	approved
+CLM-025	试运行期通常可看到趋势	external	week1/kb/02_service_cards_internal_zh-CN.md;CASE-001;CASE-002	历史案例存在趋势性结果	medium	试运行期通常可观察趋势变化	一周内必达目标	Shared	approved
+CLM-026	建议合作周期不少于3个月	external	week1/kb/02_service_cards_internal_zh-CN.md	周期建议来自服务设计	low	建议至少3个月完成验证与迭代	一个月必出稳定结果	Shared	approved
+CLM-027	不承诺固定ROI	external	week1/kb/01_brand_facts.md;week1/kb/08_editorial_style_guide_internal_zh-CN.md	边界条款明示	low	不承诺固定ROI	保ROI	Shared	approved
+CLM-028	历史案例存在显著增长结果	external	CASE-001;CASE-002;CASE-003;CASE-004;CASE-005;CASE-006;CASE-007	案例登记库可追溯	medium	历史案例显示搜索互动曝光有提升	所有客户都能复制同样结果	Shared	approved
+CLM-029	支持中英文双语素材	external	week1/kb/09_publish_service_pages_zh-CN.md;week1/kb/10_publish_service_pages_en.md	双语素材已产出	low	可同步提供zh-CN与en版本	只能输出单语	Shared	approved
+CLM-030	可通过邮箱发起沟通	external	CASE-010;week1/kb/01_brand_facts.md	联系方式可核验	low	可通过info@yamaguchitech.cn联系	联系方式待定	Shared	approved
